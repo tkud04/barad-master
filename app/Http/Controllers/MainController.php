@@ -29,6 +29,17 @@ class MainController extends Controller {
         $ret = null;
     	return view('index');
     }
+	
+    /**
+	 * Show the application welcome screen to the user.
+	 *
+	 * @return Response
+	 */
+	public function getZoho()
+    {
+        $ret = "1535561942737";
+    	return $ret;
+    }
 
 
 }
