@@ -13,13 +13,11 @@
 							<div class="d-flex">
 								<ul class="footer-nav">
 									<li><a href="#">Home</a></li>
-									<li><a href="#">Features</a></li>
 									<li><a href="#">Services</a></li>
 									<li><a href="#">Portfolio</a></li>
 								</ul>
 								<ul class="ml-30 footer-nav">
 									<li><a href="#">Team</a></li>
-									<li><a href="#">Pricing</a></li>
 									<li><a href="#">Blog</a></li>
 									<li><a href="#">Contact</a></li>
 								</ul>
@@ -29,10 +27,10 @@
 					<div class="col-lg-3 col-sm-6">
 						<div class="single-footer-widget">
 							<h6 class="text-white text-uppercase mb-20">Newsletter</h6>
-							<p>For business professionals caught between high OEM price and mediocre print and graphic output,</p>
+							<p>Subscribe to our newsletter to receive the latest wedding news and promotional materials from us</p>
 							<div id="mc_embed_signup">
-								<form target="_blank" novalidate action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&id=92a4423d01" method="get" class="subscription relative d-flex justify-content-center">
-									<input type="email" name="EMAIL" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required>
+								<form target="_blank" novalidate action="{{url('subscribe')}}" method="get" class="subscription relative d-flex justify-content-center">
+									<input type="email" name="email" placeholder="Email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" required>
 									<div style="position: absolute; left: -5000px;">
 										<input type="text" name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="">
 									</div>
@@ -46,10 +44,10 @@
 						<div class="single-footer-widget">
 							<h6 class="text-white text-uppercase mb-20">Instafeed</h6>
 							<ul class="instafeed d-flex flex-wrap">
-								<li><img src="img/i1.jpg" alt=""></li>
-								<li><img src="img/i2.jpg" alt=""></li>
-								<li><img src="img/i3.jpg" alt=""></li>
-								<li><img src="img/i4.jpg" alt=""></li>
+								<li><img src="{{asset('img/i1.jpg')}}" alt=""></li>
+								<li><img src="{{asset('img/i2.jpg')}}" alt=""></li>
+								<li><img src="{{asset('img/i3.jpg')}}" alt=""></li>
+								<li><img src="{{asset('img/i4.jpg')}}" alt=""></li>
 							</ul>
 						</div>
 					</div>

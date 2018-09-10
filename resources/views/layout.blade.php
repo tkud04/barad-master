@@ -1,7 +1,8 @@
 @include('head')
 @include('header')
-@include('slider')
 
+
+@yield('slider')
 
 @yield('content')
 

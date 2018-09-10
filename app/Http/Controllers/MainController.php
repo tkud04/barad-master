@@ -29,6 +29,37 @@ class MainController extends Controller {
         $ret = null;
     	return view('index');
     }
+
+	/**
+	 * Show the application welcome screen to the user.
+	 *
+	 * @return Response
+	 */
+	public function getAbout()
+    {
+        $ret = null;
+    	return view('about');
+    }	/**
+	 * Show the application welcome screen to the user.
+	 *
+	 * @return Response
+	 */
+	public function getSubscribe()
+    {
+        $ret = null;
+    	return redirect()->intended('/');
+    }
+	
+	/**
+	 * Show the application welcome screen to the user.
+	 *
+	 * @return Response
+	 */
+	public function postContact(Request $request)
+    {
+        $req = $request->all();
+    	return redirect()->intended('/');
+    }
 	
     /**
 	 * Show the application welcome screen to the user.

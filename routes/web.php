@@ -12,4 +12,7 @@
 */
 
 Route::get('/', 'MainController@getIndex');
+Route::get('about', 'MainController@getAbout');
+Route::get('subscribe', 'MainController@getSubscribe');
+Route::post('contact', 'MainController@postContact');
 Route::get('zohoverify/{url}', 'MainController@getZoho');
