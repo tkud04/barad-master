@@ -7,7 +7,7 @@
 @yield('content')
 
 
-@include('publish')
+
 @include('contact')
 @include('cta')
 @include('footer')
