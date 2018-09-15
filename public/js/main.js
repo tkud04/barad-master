@@ -190,4 +190,13 @@ $(document).ready(function(){
   
   $('.progressBar--animateAll').bekeyProgressbar();
   
+  var bannerTexts = ["Let us transform your project ideas to reality","Create an UNFORGETTABLE experience for your guests"];
+  var cc = 0;
+  
+  var bannerInterval = window.setInterval(function(){
+       $('#banner-text').html(bannerTexts[cc]);
+       ++cc; 
+       if(cc == bannerTexts.length) cc = 0;
+  },1700);
+  
 })
