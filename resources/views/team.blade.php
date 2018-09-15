@@ -4,7 +4,7 @@
 				<div class="row justify-content-center">
 					<div class="col-lg-8">
 						<div class="product-area-title text-center">
-							<p class="text-uppercase">Creative People</p>
+							<p class="text-uppercase">Meet The Boss</p>
 							<h2 class="h1">Team work builds trust and <br> trust builds growth</h2>
 						</div>
 					</div>
@@ -12,7 +12,7 @@
 				<div class="row">
 					<div class="col-lg-12 col-sm-12">
 						<div class="single-member">
-							<div class="thumb relative" style="background: url(img/t1.jpg);">
+							<div class="thumb relative" style="background: url(img/brd-0.jpg);">
 								<div class="overlay overlay-member d-flex flex-column justify-content-end align-items-center">
 									<p class="text-white">This article is floated online with an aim to display a bit about this team member.</p>
 									<div class="line"></div>
