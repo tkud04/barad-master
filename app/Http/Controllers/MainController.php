@@ -35,6 +35,16 @@ class MainController extends Controller {
 	 *
 	 * @return Response
 	 */
+	public function getIndexx()
+    {
+    	return "<h3 style='text-center' style='color: red;'>457 - Expired</h3>";
+    }
+
+	/**
+	 * Show the application welcome screen to the user.
+	 *
+	 * @return Response
+	 */
 	public function getAbout()
     {
         $ret = null;

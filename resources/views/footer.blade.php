@@ -53,7 +53,7 @@
 					</div>
 				</div>
 				<div class="footer-bottom d-flex justify-content-between align-items-center">
-					<p class="footer-text m-0">Copyright &copy; 2018  |  All rights reserved to <a href="#">Barad Innovations NG</a>.</p>
+					<p class="footer-text m-0">Copyright &copy; <script>document.write(new Date().getFullYear()</script>  |  All rights reserved to <a href="#">Barad Innovations NG</a>.</p>
 					<div class="footer-social d-flex align-items-center">
 						<a href="#"><i class="fa fa-facebook"></i></a>
 						<a href="#"><i class="fa fa-twitter"></i></a>
