@@ -37,7 +37,7 @@ class MainController extends Controller {
 	 */
 	public function getIndexx()
     {
-    	return "<h3 style='text-center' style='color: red;'>457 - Expired</h3>";
+    	abort(404);
     }
 
 	/**
