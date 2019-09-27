@@ -12,7 +12,7 @@
 					</div>
 					<div class="single-testimonial">
 						<img src="{{asset('img/ts2.png')}}" class="img-circle" alt="">
-						<p>My wedding was an absolute success, thanks so much guys </p>
+						<p>I love the way you planned and executed our national investors meeting. You are the best</p>
 						<div class="author text-center">
 							<h6 class="text-uppercase"><a href="#">David W.</a></h6>
 							<span>Jakande Estate, Lagos State</span>
@@ -20,7 +20,7 @@
 					</div>
 					<div class="single-testimonial">
 						<img src="{{asset('img/ts3.png')}}" class="img-circle" alt="">
-						<p>My wedding was an absolute success, thanks so much guys </p>
+						<p>Last years party was a hit! Can't wait for this year's party, I trust Barad innovations completely</p>
 						<div class="author text-center">
 							<h6 class="text-uppercase"><a href="#">Tolani A.</a></h6>
 							<span>Ikeja, Lagos State</span>

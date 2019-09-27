@@ -5,7 +5,7 @@
 					<div class="col-lg-8">
 						<div class="product-area-title text-center">
 							<p class="text-white text-uppercase">About Us</p>
-							<h2 class="text-white h1">We are a creative event management company.<br> We are passionate about creating a one-of-a-kind experience for your wedding or event occassions</h2>
+							<h2 class="text-white h1">We are a creative events planning and project management company.<br> We are passionate about creating a one-of-a-kind experience for your events and bringing your BIG project ideas to reality</h2>
 						</div>
 					</div>
 				</div>
@@ -17,7 +17,7 @@
 							</div>
 							<div class="desc">
 								<h4>Logistics</h4>
-								<p>We'll handle all the details from start to finish </p>
+								<p>We'll handle all the details of your event or project from start to finish </p>
 							</div>
 						</div>
 					</div>
@@ -28,7 +28,7 @@
 							</div>
 							<div class="desc">
 								<h4>Location</h4>
-								<p>We'll pick the right location based on your vision for your wedding or event, and your budget</p>
+								<p>We'll pick the right location based on your vision for your event and your budget</p>
 							</div>
 						</div>
 					</div>
